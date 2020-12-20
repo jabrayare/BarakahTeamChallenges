@@ -7,9 +7,9 @@
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #ffffff;
-    padding: 25px 10px 15px 10px;
+    padding: 25px 70px 15px 70px;
 }
 
 nav .logo {
@@ -50,9 +50,10 @@ ul a:hover {
 .showcase {
     height: 85vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #f5f1f0;
+    width: 100%;
 }
 
 .showcase-content h6 {
@@ -60,7 +61,7 @@ ul a:hover {
     opacity: 0.9;
     font-size: 0.8rem;
     font-weight: 500;
-    font-family: Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .showcase-content h6 span {
@@ -78,7 +79,7 @@ ul a:hover {
 .showcase-content .btn {
     background-color: #FF4500;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 15px;
     color: #ffffff;
     border-radius: 3px;
     opacity: 0.8;
@@ -103,6 +104,7 @@ ul a:hover {
 
 .showcase .showcase-img {
     height: 400px;
+    width: 50%;
 }
 
 .showcase .showcase-img img {
