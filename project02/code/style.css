@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    background-color: #56c271;
+    background-color: #cccccc;
 }
 
 main {
@@ -27,7 +27,7 @@ main {
 
 main h1 {
     margin-bottom: 30px;
-    font-size: 1.4rem;
+    font-size: 2.5rem;
     font-style: italic;
     font-weight: 500;
     color: #8a0207;
@@ -42,7 +42,7 @@ main h1 {
 }
 
 .alifbets img {
-    width: 90px;
+    width: 130px;
     object-fit: contain;
     margin-right: 10px;
     /* animation: zoom 0.4s; */
